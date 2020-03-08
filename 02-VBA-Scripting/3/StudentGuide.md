@@ -73,8 +73,6 @@ Today will complete this in-depth week on VBA scripting with VBA Formatting and 
 
   * Files/Instructions:
   
-    * [04-Stu_Checkerboard/checkerboard_solved.xlsm](Activities/04-Stu_Checkerboard/Solved/checkerboard.xlsm) and demo what the solution should look like.
-
     ![CheckerBoard](Images/CheckerBoard.gif)
 
     * Instructions:

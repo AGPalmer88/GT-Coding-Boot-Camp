@@ -22,8 +22,6 @@ In today's class, students will get their first exposure to fundamental programm
 
     * [README](Activities/02-Stu_HelloVBA/README.md)
     
-    * [Activities/02-Stu_HelloVBA/Solved/hello_vba.xlsm](Activities/02-Stu_HelloVBA/Solved/hello_vba.xlsm)
-
     ![Images/macro.png](Images/macro.png)
 
     * Instructions:
@@ -39,8 +37,6 @@ In today's class, students will get their first exposure to fundamental programm
 
     * [README](Activities/04-Stu_ChooseYourButton/README.md)
     
-    * [Activities/04-Stu_ChooseYourButton/Solved/choose_your_button.xlsm](Activities/04-Stu_ChooseYourButton/Solved/choose_your_button.xlsm)
-
     * Instructions:
 
       * Create an Excel file with two interactive buttons. These buttons should each be associated with a different VBA subroutine. When clicked, each button should trigger a different pop-up message.
@@ -52,8 +48,6 @@ In today's class, students will get their first exposure to fundamental programm
 
   * Files/Instructions:
   
-    * [Activities/06-Stu_ChessBoard/Solved/chessboard.xlsm](Activities/06-Stu_ChessBoard/Solved/ChessBoard.xlsm)
-    
     ![Images/06-ChessBoard_1.png](Images/06-ChessBoard_1.png)
 
   * Instructions:
