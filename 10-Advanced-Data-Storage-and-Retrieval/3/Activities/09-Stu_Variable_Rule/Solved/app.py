@@ -29,12 +29,17 @@ def justice_league():
 
 @app.route("/")
 def welcome():
-    return (
-        f"Welcome to the Justice League API!<br/>"
-        f"Available Routes:<br/>"
-        f"/api/v1.0/justice-league<br/>"
-        f"/api/v1.0/justice-league/superhero/batman"
-    )
+    response_str="Welcome to the Justice League API!<br/>" +\
+        "Available Routes:<br/>" +\
+        "<a href='/api/v1.0/justice-league'>Justice League</a><br/>"
+    for member in justice_league_members:
+        response_str+=f"<a href='/api/v1.0/justice-league/real_name/" +\
+        member['real_name'].replace(' ','').lower()+"'>" +\
+        member['real_name']+"</a> (<a href='/api/v1.0/justice-league/superhero/" +\
+        member['superhero'].replace(' ','').lower()+"'>" +\
+        member['superhero']+"</a>)<br/>"
+            
+    return (response_str)
 
 
 @app.route("/api/v1.0/justice-league/real_name/<real_name>")
